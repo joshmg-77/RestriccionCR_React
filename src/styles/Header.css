@@ -1,0 +1,63 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title h2 {
+    width: 80em;
+    color: blue;
+    font-size: 15px;
+    text-align: center;
+  }
+  .CostaRica1 {
+    width: 100vw;
+    height: 15px;
+    display: flex;
+    background: -webkit-linear-gradient(
+      top,
+      #022a7f 17%,
+      #fff 17%,
+      #fff 33%,
+      #ce1127 33%,
+      #ce1127 66%,
+      #fff 66%,
+      #fff 83%,
+      #022a7f 83%,
+      #022a7f 83%
+    );
+    background: linear-gradient(
+      to bottom,
+      #022a7f 17%,
+      #fff 17%,
+      #fff 33%,
+      #ce1127 33%,
+      #ce1127 66%,
+      #fff 66%,
+      #fff 83%,
+      #022a7f 83%,
+      #022a7f 83%
+    );
+  }
+  .sect {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .h2 {
+    color: gray;
+    font-family: "sans-serif";
+    margin: 15px 0;
+    /* border: 2px solid #ce1127;*/
+  }
+  .img_center {
+    width: 90%;
+    min-width: 250px;
+  }

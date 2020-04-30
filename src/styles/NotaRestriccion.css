@@ -1,0 +1,24 @@
+.nota {
+  width: 90%;
+  margin-top: 35px;
+  padding: 7px 10px;
+  background: #0276ea;
+  border-radius: 20px;
+}
+.nota h2 {
+  color: white;
+  text-align: center;
+}
+.nota p:nth-of-type(1) {
+  color: #fc7e7d;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.nota p:nth-of-type(2) {
+  color: #fc7e7d;
+  font-weight: 600;
+}
+.bold{
+  color: aliceblue;
+}

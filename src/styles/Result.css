@@ -1,0 +1,19 @@
+.result {
+    width: 100%;
+    /*cambiar a 100% para poder visualizar las 3 svg */
+    height: 222px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .img {
+    width: 80%;
+    height: 200px;
+    max-width: 650px;
+    /*  position: absolute;*/
+    border: 2px solid purple;
+    /* background: white;*/
+  }

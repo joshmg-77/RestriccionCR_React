@@ -1,0 +1,69 @@
+.ps {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  
+    /* border: 2px solid pink;*/
+  }
+  #p,
+  .p {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 10px 0;
+    color: grey;
+  }
+  .p {
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .p h2 {
+    font-size: 12px;
+  }
+  #facebook {
+    width: 35px;
+    height: 50px;
+    margin: 0 10px;
+  }
+  #whatsapp {
+    width: 35px;
+    height: 50px;
+    color: green;
+  }
+  .span {
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  .CostaRica {
+    width: 100%;
+    height: 25px;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(
+      to left,
+      #022a7f 17%,
+      #fff 17%,
+      #fff 33%,
+      #ce1127 33%,
+      #ce1127 66%,
+      #fff 66%,
+      #fff 83%,
+      #022a7f 83%,
+      #022a7f 83%
+    );
+    background: linear-gradient(
+      to right,
+      #022a7f 17%,
+      #fff 17%,
+      #fff 33%,
+      #ce1127 33%,
+      #ce1127 66%,
+      #fff 66%,
+      #fff 83%,
+      #022a7f 83%,
+      #022a7f 83%
+    );
+  }
